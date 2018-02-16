@@ -11,5 +11,5 @@ Vcs-Git: https://github.com/DbRhino/dbrhino-agent.git
 Vcs-Browser: https://github.com/DbRhino/dbrhino-agent
 
 Package: dbrhino-agent
-Architecture: amd64
+Architecture: amd64 i386
 Description: Agent for dbrhino.com
