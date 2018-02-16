@@ -1,0 +1,15 @@
+Source: dbrhino-agent
+Section: unknown
+Priority: optional
+Maintainer: buck <buck@dbrhino.com>
+Build-Depends: debhelper (>=9),
+               dh-golang,
+               dh-systemd
+Standards-Version: 3.9.6
+Homepage: https://www.dbrhino.com
+Vcs-Git: https://github.com/DbRhino/dbrhino-agent.git
+Vcs-Browser: https://github.com/DbRhino/dbrhino-agent
+
+Package: dbrhino-agent
+Architecture: amd64
+Description: Agent for dbrhino.com

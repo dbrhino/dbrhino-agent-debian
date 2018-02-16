@@ -1,0 +1,5 @@
+dbrhino-agent (0.4.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- buck <buck@dbrhino.com>  Thu, 15 Feb 2018 14:10:21 -0500

@@ -1,0 +1,13 @@
+# DbRhino Agent systemd service file
+
+[Unit]
+Description=DbRhino Agent
+After=network.target
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+ExecStart=/usr/local/bin/dbrhino-agent
+TimeoutSec=600
+Restart=on-failure

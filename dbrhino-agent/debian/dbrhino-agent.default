@@ -1,0 +1,10 @@
+# Defaults for dbrhino-agent initscript
+# sourced by /etc/init.d/dbrhino-agent
+# installed at /etc/default/dbrhino-agent by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+
+# Additional options that are passed to the Daemon.
+DBR_TOKEN_FILE=/etc/dbrhino-agent/token

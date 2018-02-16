@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+
+export DH_OPTIONS
+export DH_GOPKG := github.com/dbrhino/dbrhino-agent
+
+%:
+	dh $@ --buildsystem=golang --with=golang
+
+
+# %:
+# 	dh $@ --with=golang,systemd
+#
+# build:
+# 	../clean.bash
+# 	../compile.bash $(DEB_HOST_ARCH)
+# 	# gox -os="linux" -arch="amd64" \
+# 	# 	github.com/dbrhino/dbrhino-agent
