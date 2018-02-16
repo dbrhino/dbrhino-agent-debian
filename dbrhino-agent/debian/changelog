@@ -1,3 +1,9 @@
+dbrhino-agent (0.4.6) unstable; urgency=medium
+
+  * Fix crash
+
+ -- buck <buck@dbrhino.com>  Fri, 16 Feb 2018 16:45:00 -0500
+
 dbrhino-agent (0.4.5) unstable; urgency=medium
 
   * Create CLI command
