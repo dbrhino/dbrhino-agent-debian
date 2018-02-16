@@ -4,7 +4,7 @@ export DH_OPTIONS
 export DH_GOPKG := github.com/dbrhino/dbrhino-agent
 
 %:
-	dh $@ --buildsystem=golang --with=golang
+	dh $@ --buildsystem=golang --with=golang,systemd
 
 override_dh_strip:
 	true
