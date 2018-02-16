@@ -1,3 +1,12 @@
 dbrhino-agent_*.orig.tar.gz
-dbrhino-agent_0.4.0-1.debian.tar.xz
-dbrhino-agent_0.4.0-1.dsc
+dbrhino-agent_*.debian.tar.xz
+dbrhino-agent_*.dsc
+dbrhino-agent_*.changes
+dbrhino-agent_*.deb
+
+dbrhino-agent/*
+!dbrhino-agent/debian/
+*debhelper*
+dbrhino-agent/debian/dbrhino-agent
+dbrhino-agent/debian/dbrhino-agent.substvars
+dbrhino-agent/debian/files
