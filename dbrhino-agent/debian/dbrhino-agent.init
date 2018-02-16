@@ -18,7 +18,7 @@ fi
 DESC=dbrhino-agent
 NAME=dbrhino-agent
 DAEMON=/usr/bin/dbrhino-agent
-DAEMON_ARGS=""
+DAEMON_ARGS="server"
 PIDFILE=/var/run/$NAME.pid
 SCRIPTNAME=/etc/init.d/$NAME
 

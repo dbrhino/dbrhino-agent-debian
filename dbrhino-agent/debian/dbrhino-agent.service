@@ -8,6 +8,6 @@ After=network.target
 WantedBy=multi-user.target
 
 [Service]
-ExecStart=/usr/bin/dbrhino-agent
+ExecStart=/usr/bin/dbrhino-agent server
 TimeoutSec=600
 Restart=on-failure
