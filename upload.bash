@@ -12,7 +12,7 @@ upload_arch() {
       --token $DBRHINO_GITHUB_TOKEN \
       --owner dbrhino \
       --repo dbrhino-agent \
-      --tag $version \
+      --tag v$version \
       --file dbrhino-agent_${version}_${arch}.deb \
       --name dbrhino-agent_${version}_${arch}.deb
 }
