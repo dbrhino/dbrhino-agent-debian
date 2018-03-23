@@ -1,3 +1,10 @@
+dbrhino-agent (0.5.0) unstable; urgency=medium
+
+  * Improvements to password management
+  * Redo templating to use Django-style templates
+
+ -- buck <buck@dbrhino.com>  Fri, 23 Mar 2018 16:58:46 -0400
+
 dbrhino-agent (0.4.6) unstable; urgency=medium
 
   * Fix crash
