@@ -1,3 +1,9 @@
+dbrhino-agent (0.5.1) unstable; urgency=medium
+
+  * Each template context is now given the type keyword
+
+ -- buck <buck@dbrhino.com>  Mon, 26 Mar 2018 22:34:07 -0400
+
 dbrhino-agent (0.5.0) unstable; urgency=medium
 
   * Improvements to password management
